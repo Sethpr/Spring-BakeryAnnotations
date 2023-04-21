@@ -1,8 +1,11 @@
 package com.zipcodewilmington.bakery.services;
 
+import org.springframework.stereotype.Service;
+
 import com.zipcodewilmington.bakery.models.Muffin;
 import com.zipcodewilmington.bakery.repositories.MuffinRepository;
 
+@Service
 public class MuffinService {
     private MuffinRepository repository;
 
